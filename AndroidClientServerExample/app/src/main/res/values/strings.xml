@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">EasyEat</string>
+    <string name="testc">Crispy, juicy wings, breaded chicken bites or tenders served plain or tossed in your choice of sauce.</string>
+    <string name="testb">100% all-natural Angus beef.  No hormones and no antibiotics ever.  Our proprietary Shack blend is freshly ground.
+        All burgers are cooked medium unless otherwise requested, served on a non-GMO Martin’s Potato Roll.
+        Add lettuce, tomato, pickle or onion – your choice!  All you veggie-lovers, check out our ’Shroom Burger which
+        stars a whole portobello mushroom roasted low and slow.</string>
+    <string name="testf">Crispy, crunchy, salty potato-y goodness!</string>
+    <string name="testo">beer battered, parmesan, chipotle ranch, buttermilk ranch.</string>
+    <string name="menu_details">Menu details </string>
+    <string name="burger">Burgers</string>
+    <string name="burger_price">$5.00</string>
+    <string name="chicken">Chickens</string>
+    <string name="chicken_price">$7.00</string>
+    <string name="fries">French Fries</string>
+    <string name="fries_price">$2.50</string>
+    <string name="Onion">Onion Rings</string>
+    <string name="onion_price">$3.50</string>
+    <string name="slogan">The best restaurant that offers delicious and healthy food in town. Place an order and get it delivered between 2 hours irrespective of your location.Open from 11AM to 7PM.</string>
+    <string name="get_started">GET STARTED</string>
+
+</resources>

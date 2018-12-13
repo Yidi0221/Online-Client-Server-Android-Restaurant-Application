@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/mbg"
+    tools:context=".Main3Activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/chickenlabel"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/chicken"
+                    />
+                <TextView
+                    android:id="@+id/ChickenPricelabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dp"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/_12sdp"
+                    android:textColor="@android:color/white"
+                    android:text="Price:"/>
+
+                <TextView
+                    android:id="@+id/ChickenPriceText"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/_12sdp"
+                    android:textColor="#fa070b"/>
+
+                <TextView
+                    android:id="@+id/ChickenCountLabel"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/white"
+                    android:text="Count"
+                    android:textSize="@dimen/_12sdp"
+                    android:textStyle="bold"/>
+
+                <EditText
+                    android:id="@+id/chickenEdit"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:hint="enter number"
+                    android:textAlignment="center"
+                    android:textSize="@dimen/_12sdp"
+                    android:textColor="@android:color/white"
+                    android:textColorHint="@android:color/white"
+                    android:inputType="number"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/burgerlabel"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/burger"
+                    />
+
+                <TextView
+                    android:id="@+id/BurgerPricelabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dp"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/_12sdp"
+                    android:textColor="@android:color/white"
+                    android:text="Price:"/>
+
+                <TextView
+                    android:id="@+id/BurgerPriceText"
+                    android:layout_width="50dp"
+                    android:textSize="@dimen/_12sdp"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textColor="#fa070b"
+                    />
+
+                <TextView
+                    android:id="@+id/BurgerCountLabel"
+                    android:layout_width="50dp"
+                    android:textSize="@dimen/_12sdp"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/white"
+                    android:text="Count"
+                    android:textStyle="bold"/>
+
+                <EditText
+                    android:id="@+id/BurgerEdit"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:hint="enter number"
+                    android:textSize="@dimen/_12sdp"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/white"
+                    android:textColorHint="@android:color/white"
+                    android:inputType="number"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/Onionlabel"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/onion_rings" />
+
+                <TextView
+                    android:id="@+id/OnionPricelabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dp"
+                    android:textSize="@dimen/_12sdp"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/white"
+                    android:text="Price:"/>
+                <TextView
+                    android:id="@+id/OnionPriceText"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/_12sdp"
+                    android:textStyle="bold"
+                    android:textColor="#fa070b"
+                    />
+                <TextView
+                    android:id="@+id/OnionCountLabel"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/_12sdp"
+                    android:text="Count"
+                    android:textStyle="bold"/>
+
+                <EditText
+                    android:id="@+id/OnionEdit"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:hint="enter number"
+                    android:textSize="@dimen/_12sdp"
+                    android:textColor="@android:color/white"
+                    android:textAlignment="center"
+                    android:textColorHint="@android:color/white"
+                    android:inputType="number"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <ImageButton
+                    android:id="@+id/Frylabel"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/french_fries" />
+
+
+                <TextView
+                    android:id="@+id/FryPricelabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dp"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/_12sdp"
+                    android:textColor="@android:color/white"
+                    android:text="Price:"/>
+
+                <TextView
+                    android:id="@+id/FryPriceText"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/_12sdp"
+                    android:textColor="#fa070b"
+                    />
+                <TextView
+                    android:id="@+id/FryCountLabel"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/_12sdp"
+                    android:text="Count"
+                    android:textStyle="bold"/>
+
+                <EditText
+                    android:id="@+id/FryEdit"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:hint="enter number"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/white"
+                    android:textColorHint="@android:color/white"
+                    android:inputType="number"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/Clientlabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    android:textSize="25dp"
+                    android:text="Client"/>
+
+                <EditText
+                    android:id="@+id/ClientEdit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="enter number"
+                    android:textAlignment="center"
+                    android:textSize="@dimen/_12sdp"
+                    android:textColor="@android:color/white"
+                    android:textColorHint="@android:color/white"
+                    android:inputType="number"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/info"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:textColor="@android:color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/infoip"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:textColor="@android:color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+
+
+                <Button
+                    android:id="@+id/connect"
+                    android:layout_width="186dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    android:background="@color/btnSignUp"
+                    android:text="Submit"
+                    android:textColor="@android:color/white" />
+
+                <Button
+                    android:id="@+id/clear"
+                    android:layout_width="185dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="200dp"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    android:background="@color/btnSignActivity"
+                    android:text="Clear"
+                    android:textColor="@android:color/black" />
+
+            </RelativeLayout>
+
+
+
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/msg"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:lineSpacingMultiplier="1.3"
+                    android:textColor="@android:color/white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </ScrollView>
+
+
+
+        </LinearLayout>
+
+
+
+
+    </ScrollView>
+
+
+
+
+</LinearLayout>

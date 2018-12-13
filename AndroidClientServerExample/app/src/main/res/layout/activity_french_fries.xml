@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/mbg"
+    tools:context="com.example.yidixu.androidclientserverexample.FrenchFries">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:id="@+id/box_wrapper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/food_item_image"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/french_fries"
+                android:layout_gravity="center"
+                android:contentDescription="@string/app_name"/>
+
+            <LinearLayout
+                android:id="@+id/inner_wrapper"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/_16sdp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/food_item_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/fries"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/_12sdp"
+                    android:textSize="@dimen/_16sdp"/>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_12sdp">
+
+                    <TextView
+                        android:id="@+id/food_item_price"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/fries_price"
+                        android:textColor="#fa070b"
+                        android:textStyle="bold"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true"
+                        android:textSize="@dimen/_16sdp"/>
+
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/menu_details"
+                    android:textColor="@android:color/white"
+                    android:lineSpacingMultiplier="1.3"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/_20sdp"
+                    android:textSize="@dimen/_13sdp"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="@dimen/_2sdp"
+                    android:textColor="@android:color/white"/>
+
+
+                <TextView
+                    android:id="@+id/food_item_description"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/testf"
+                    android:textColor="@android:color/white"
+                    android:lineSpacingMultiplier="1.3"
+                    android:layout_marginTop="@dimen/_12sdp"
+                    android:textSize="@dimen/_12sdp"/>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal">
+
+                    <Button
+                        android:id="@+id/burgerbuttonminus"
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerVertical="true"
+                        android:text="-"
+                        android:textSize="25dp" />
+
+
+                    <EditText
+                        android:id="@+id/burgersnumber"
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_toEndOf="@+id/burgerbuttonminus"
+                        android:layout_toRightOf="@+id/burgerbuttonminus"
+                        android:numeric="integer"
+                        android:text="0"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/white" />
+
+
+                    <Button
+                        android:id="@+id/burgerbuttonplus"
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:layout_toEndOf="@+id/burgersnumber"
+                        android:layout_toRightOf="@+id/burgersnumber"
+                        android:text="+"
+                        android:textSize="25dp" />
+
+                </RelativeLayout>
+
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="RETURN"
+                    android:layout_marginTop="@dimen/_20sdp"
+                    android:background="@color/btnSignUp"
+                    android:textColor="@android:color/white"
+                    android:id="@+id/order"/>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
